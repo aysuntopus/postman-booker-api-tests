@@ -1,0 +1,6 @@
+firstname,lastname,totalprice,depositpaid,checkin,checkout,additionalneeds,invalidprice
+Julia,Forbis,0,TRUE,2025-02-10,2025-02-12,Breakfast,-1
+Rick,Novak,-6,FALSE,2025-06-06,2025-06-01,Dinner,0
+Yavuz,Ates,300,TRUE,2023-01-01,2023-02-02,Extra Bed,100.02
+,,300,TRUE,2024-03-01,2024-03-02,Extra Bed,-300
+Mila,Anakin,300,TRUE,2025-03-01,2025-03-02,Dinner,0.5
