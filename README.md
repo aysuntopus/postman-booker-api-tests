@@ -1,4 +1,4 @@
-# restful-booker-api-tests
+# postman-booker-api-tests
 App links :  [Restful -Booker](https://restful-booker.herokuapp.com/),  [Restful-Booker API Docs](https://restful-booker.herokuapp.com/apidoc/index.html)
 
 _Restful-Booker_  is a simple Node booking form for testing RESTful web services created by Mark Winteringham. It features authentication and CRUD operations, includes a bunch of bugs for testers to explore.
