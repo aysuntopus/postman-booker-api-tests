@@ -33,13 +33,16 @@ I would like to share the bugs I found:
 - A new booking can be added with a check-in date after the check-out date: Booking can be created with a check-in date after the check-out date.
 -  A new booking can be added with negative or zero totalprice: Creating booking with zero/negative total prices should be prevented.
 - A new booking can be added without name: Creating booking without name should be prevented.
+
 `https://restful-booker.herokuapp.com/booking` - Booking GetBookingIds
 - Filter with check-in date doesn't work with after current date: Filtering check-in date with past date works but does not work when using a date later than the current date.
 - Filter with both check-in & check-out date doesn't work: Filtering chek-in & check-out date it doesn't show existing booking.
+
 `https://restful-booker.herokuapp.com/booking/:id` - UpdateBooking
 -  Update with invalid value returns 200 : When updating the reservation with float totalprice, it returns with status code 200 even though the reservation record is unchanged.
 -  Update with negative totalprice value returns 200 : When updating the reservation with negative total price, it returns with status code 200 and record is changed with new value.
-`https://restful-booker.herokuapp.com/booking/1`  - Delete Booking
+
+`https://restful-booker.herokuapp.com/booking/:id`  - Delete Booking
 -   Auth can be set only via Cookie header, doesn't work with Authorization header.
 -   Delete request returns 201 Created: It would be more accurate to use 200.
 -   Delete  booking with invalid id returns 405: even though the query type is correct. It would be more correct to use 404 instead.
